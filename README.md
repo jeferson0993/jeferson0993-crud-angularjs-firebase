@@ -105,7 +105,7 @@ Project Link: [Repository](https://github.com/jeferson0993/jeferson0993-crud-ang
 [issues-shield]: https://img.shields.io/github/issues/jeferson0993/jeferson0993-crud-angularjs-firebase.svg?style=flat-square
 [issues-url]: https://github.com/jeferson0993/jeferson0993-crud-angularjs-firebase/issues
 [license-shield]: https://img.shields.io/github/license/jeferson0993/jeferson0993-crud-angularjs-firebase.svg?style=flat-square
-[license-url]: https://github.com/jeferson0993/jeferson0993-crud-angularjs-firebase/blob/master/LICENSE.txt
+[license-url]: https://github.com/jeferson0993/jeferson0993-crud-angularjs-firebase/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/jeferson-ferreira-4a036b143/
 [home-screenshot]: https://user-images.githubusercontent.com/29678099/71330655-f47eb000-250c-11ea-8f5c-3069b4c708f7.png
