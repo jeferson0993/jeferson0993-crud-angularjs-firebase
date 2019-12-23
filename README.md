@@ -92,6 +92,9 @@ Jeferson Ferreira - jeferson0993@gmail.com
 
 Project Link: [Repository](https://github.com/jeferson0993/jeferson0993-crud-angularjs-firebase)
 
+---
+
+## [Versão com Angular 8](https://github.com/jeferson0993/crud-angular8-firebase)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
