@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-4"></div>
+        <div class="col-sm-12 col-md-4 grey lighten-4 p-5 mt-5">
+            <h3 class="text-center">Cadastrar novo estudante</h3>
+            <div class="md-form mb-0">
+                <input type="text" id="name" class="form-control" ng-model="student.name">
+                <label for="name">Nome</label>
+            </div>
+            <div class="md-form mb-0">
+                <input type="text" id="course" class="form-control" ng-model="student.course">
+                <label for="course">Curso</label>
+            </div>
+            <div class="md-form mb-0">
+                <input type="text" id="semestre" class="form-control" ng-model="student.semestre">
+                <label for="semestre">Semestre</label>
+            </div>
+            <button class="btn btn-primary" ng-click="add()">Cadastrar</button>
+        </div>
+        <div class="col-sm-12 col-md-4"></div>
+    </div>
+</div>

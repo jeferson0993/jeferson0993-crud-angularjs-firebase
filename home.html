@@ -1,0 +1,40 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-2"></div>
+        <div class="col-sm-12 col-md-8">
+            <div class="row">
+                <div class="col-sm-12 col-md-2"></div>
+                <div class="col-sm-12 col-md-8">
+                    <div class="md-form">
+                        <input type="text" id="inputEx" class="form-control" ng-model="search">
+                        <label for="inputEx">Pesquisar</label>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-2"></div>
+            </div>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Curso</th>
+                            <th>Semestre</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="student in records | filter : search">
+                            <td>{{student.name}}</td>
+                            <td>{{student.course}}</td>
+                            <td>{{student.semestre}}</td>
+                            <td><a href="#!/edit/{{ student.$id }}" class="btn btn-sm btn-success"><i class="fa fa-pencil"></i></a>
+                            <a href="" ng-click="removeData(student)" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-2"></div>
+    </div>
+</div>

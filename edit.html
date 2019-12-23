@@ -1,0 +1,22 @@
+<div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-4"></div>
+            <div class="col-sm-12 col-md-4 grey lighten-4 p-5 mt-5">
+                <h3 class="text-center">{{ student.name }}</h3>
+                <div class="md-form mb-0">
+                    <input type="text" id="name" class="form-control" ng-model="student.name" placeholder="nome">
+                    <label for="name"></label>
+                </div>
+                <div class="md-form mb-0">
+                    <input type="text" id="course" class="form-control" ng-model="student.course" placeholder="curso">
+                    <label for="course"></label>
+                </div>
+                <div class="md-form mb-0">
+                    <input type="text" id="semestre" class="form-control" ng-model="student.semestre" placeholder="semestre">
+                    <label for="semestre"></label>
+                </div>
+                <button class="btn btn-primary" ng-click="edit(student.$id)">Salvar Alterações</button>
+            </div>
+            <div class="col-sm-12 col-md-4"></div>
+        </div>
+    </div>
