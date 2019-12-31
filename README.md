@@ -48,7 +48,6 @@ Below are some images of the CRUD with angularJS webapp
 Which Languages and Libraries are used :
 * [AngularJS](https://angularjs.org/)
 * [Firebase Realtime Database](https://firebase.google.com/products/realtime-database/)
-* [MDB](https://mdbootstrap.com/)
 * [jQuery](https://jquery.com/)
 * [Bootstrp](https://getbootstrap.com/)
 * [GitHub Pages](https://pages.github.com)
